@@ -1,4 +1,4 @@
-package com.example.dluv
+package com.vityq.dluv
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dluv">
+    package="com.vityq.dluv">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -9,6 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DLuv">
+        <activity android:name=".TelegramActivity"></activity>
+        <activity android:name=".UserChatActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".GetPictureActivity" />
+        <activity android:name=".AboutUserActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

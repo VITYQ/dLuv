@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UserActivity">
+
+        <ImageView
+            android:id="@+id/imageView_Profile"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/button_Chat"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="272dp"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/ic_baseline_chat_24"
+            android:tint="@color/pink_900"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vitaly Sorokin, 19"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView_Profile" />
+
+        <TextView
+            android:id="@+id/text_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16 likes, 2 dislikes"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_Name" />
+
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:text="sadfhkjsadhfkjldsahfkjdsahfkdsakjghdskagh ds gksdaj ghkds gksdg ksda gkjsda gksda gsd gksdha gksdah g"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_likes" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

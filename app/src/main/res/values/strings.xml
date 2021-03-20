@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">dLuv</string>
+    <string name="pref">com.vityq.dluv.PREFERENCE_FILE_KEY</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.dluv
+package com.vityq.dluv
 
 import org.junit.Test
 

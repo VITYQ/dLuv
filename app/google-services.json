@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "484829663826",
+    "project_id": "dluv-95376",
+    "storage_bucket": "dluv-95376.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484829663826:android:a24c48eb54a9c3de41458b",
+        "android_client_info": {
+          "package_name": "com.vityq.dluv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484829663826-ldjpgrq2avl34llp658s47b4154oso26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZuaOQCHXo0vEsisEGPEI-LXjX9_fajyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484829663826-ldjpgrq2avl34llp658s47b4154oso26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
