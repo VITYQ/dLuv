@@ -47,6 +47,12 @@ class MainActivity : AppCompatActivity(), CardStackListener {
         cardStackView.adapter = adapter
         manager.cardStackListener
 
+
+        binding.chatsbutton.setOnClickListener {
+            val intent = Intent(this, ChatActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun fetchPeople() {
