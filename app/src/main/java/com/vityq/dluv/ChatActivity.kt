@@ -20,12 +20,17 @@ class ChatActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_chat)
 
-        chatInit()
+
         adapter = ChatsAdapter(this, chats)
         binding.recyclerChats.adapter = adapter
 
     }
 
+    override fun onStart() {
+        super.onStart()
+        chats.clear()
+        chatInit()
+    }
     private fun chatInit() {
         val ref = FirebaseDatabase.getInstance(url).getReference("/users/${user.username}/messages")
         ref.addListenerForSingleValueEvent(object : ValueEventListener{
